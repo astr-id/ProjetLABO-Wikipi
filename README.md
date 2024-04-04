@@ -1,1 +1,1 @@
-to start the project try this code in Terminal --> ```npm run start```
+Try this code in Terminal to start the project ==> ```npm run start```
