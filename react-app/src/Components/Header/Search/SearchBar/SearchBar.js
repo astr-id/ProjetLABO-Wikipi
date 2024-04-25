@@ -31,22 +31,25 @@ function SearchBar({ setData }) {
   return (
     <div
       className={`${
-        theme === "light" ? "bg-white" : "bg-2c2c2c"
-      } w-full h-9 pl-4 flex items-center`}
+        theme === "light" ? "bg-F3F4F6 border-gray-400 border" : "bg-2c2c2c"
+      } w-full pl-8 flex items-center rounded-lg h-54px`}
     >
+      <SearchIcon className="absolute left-1 text-gray-400" />
       <input
         value={input}
         onChange={(e) => handleChange(e.target.value)}
-        placeholder="Rechercher"
+        placeholder="Search..."
         className={`h-full ${
-          theme === "light" ? "bg-white text-black" : "bg-2c2c2c text-white"
-        } text-sm focus:outline-none w-full`}
+          theme === "light" ? "bg-F3F4F6 text-black" : "bg-2c2c2c text-white"
+        } text-sm focus:outline-none w-full h-54px`}
       />
-      <SearchIcon
-        className={`${
-          theme === "light" ? "bg-AEAEAE text-808080" : "text-808080 bg-black"
-        } text-30px h-inherit cursor-pointer w-full pl-1 pr-1`}
-      />
+      <button className="h-full bg-C81E1E p-1 rounded-r-lg" type="submit" value="Submit">
+        <SearchIcon
+          className={`${
+            theme === "light" ? "bg-C81E1E text-white" : "text-808080 bg-black"
+          } text-30px h-inherit cursor-pointer w-full pl-1 pr-1 rounded-r-lg`}
+        />
+      </button>
     </div>
   );
 }

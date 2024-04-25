@@ -1,15 +1,20 @@
 import React, { useState } from "react";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import { ThemeState } from "../../../Context/UseContext";
+import KeyboardArrowDownOutlinedIcon from "@mui/icons-material/KeyboardArrowDownOutlined";
+import KeyboardArrowUpOutlinedIcon from "@mui/icons-material/KeyboardArrowUpOutlined";
+import { Badge, styled } from "@mui/material";
 
 function User() {
   const [userMenu, setUserMenu] = useState(false);
+  const [arrow, setArrow] = useState(false);
   const {
     state: { theme },
   } = ThemeState();
 
   const handleClick = (value) => {
     setUserMenu(value);
+    setArrow(value);
   };
 
   let menu = [
@@ -20,15 +25,37 @@ function User() {
     "Déconnexion",
   ];
 
+  const StyledBadge = styled(Badge)(({ theme }) => ({
+    "& .MuiBadge-badge": {
+      right: 10,
+      top: 10,
+      border: `2px solid ${theme.palette.background.paper}`,
+      borderRadius: "50%",
+      padding: "6px 6px",
+    },
+  }));
+
   return (
     <div className="relative">
-      <AccountCircleIcon
+      <button
         value={userMenu}
         onClick={() => handleClick(!userMenu)}
-        className={`${
-          theme === "light" ? "text-black" : "text-4E4E4E"
-        } text-3.5rem cursor-pointer`}
-      />
+        className="flex justify-around items-center gap-1 cursor-pointer"
+      >
+        <StyledBadge badgeContent={4} variant="dot" color="success">
+          <AccountCircleIcon
+            className={`${
+              theme === "light" ? "text-black" : "text-4E4E4E"
+            } text-3.5rem cursor-pointer rounded-md`}
+          />
+        </StyledBadge>
+
+        {arrow ? (
+          <KeyboardArrowDownOutlinedIcon value={arrow} />
+        ) : (
+          <KeyboardArrowUpOutlinedIcon value={arrow} />
+        )}
+      </button>
       {userMenu ? (
         <div
           className={`${
