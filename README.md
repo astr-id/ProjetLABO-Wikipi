@@ -1,3 +1,5 @@
+Voici les modifications apportées à votre Markdown :
+
 # 🐼 WikIpi
 
 ## 👋 Introduction
@@ -10,7 +12,9 @@ Avant de commencer, assurez-vous d'avoir les éléments suivants installés sur 
 
 - PHP
 - Composer
+- Node.js
 - NPM
+- WAMP ou XAMPP
 
 ## ⚙️ Installation
 
@@ -22,16 +26,23 @@ Suivez les étapes ci-dessous pour installer et configurer l'application :
     git clone https://github.com/MathiasAbes/ProjetLABO-Wikipi.git
     cd ProjetLABO-Wikipi
     ```
+   
+Le projet est divisé en deux parties :
 
-2. **Installer les dépendances back-end :**
+- **Laravel App :** pour la partie back-end.
+- **React App :** pour la partie front-end.
+
+2. **Installer les dépendances back-end dans laravel-app :**
 
     ```bash
+    cd .\laravel-app\
     composer install
     ```
 
-3. **Installer les dépendances front-end :**
+3. **Installer les dépendances front-end dans react-app :**
 
     ```bash
+    cd .\react-app\
     npm install
     ```
 
@@ -41,22 +52,41 @@ Suivez les étapes ci-dessous pour installer et configurer l'application :
     cp .env.example .env
     ```
 
+    Modifiez les lignes suivantes dans le fichier `.env` :
+
+    ```env
+    DB_CONNECTION=mysql
+    DB_HOST=127.0.0.1
+    DB_PORT=3306
+    DB_DATABASE=projetlabowikipi
+    DB_USERNAME=root
+    DB_PASSWORD=
+    ```
+
+    Ensuite, générez la clé de l'application :
+
     ```bash
     php artisan key:generate
     ```
+
+5. **Récupérer la base de données :**
+
+    Téléchargez la base de données disponible dans le Google Drive et importez-la sur votre serveur local.
 
 ## 🚀 Démarrage de l'application
 
 1. **Lancer le serveur de développement Laravel :**
 
     ```bash
+    cd .\laravel-app\
     php artisan serve
     ```
 
-2. **Lancer le front-end :**
+2. **Lancer le front-end React :**
 
     ```bash
-    npm run dev
+    cd .\react-app\
+    npm start
     ```
 
 3. **Accéder à l'application :**
@@ -64,5 +94,5 @@ Suivez les étapes ci-dessous pour installer et configurer l'application :
     Ouvrez votre navigateur et allez à l'adresse suivante :
 
     ```
-    http://localhost:8000
+    http://localhost:3000/
     ```
