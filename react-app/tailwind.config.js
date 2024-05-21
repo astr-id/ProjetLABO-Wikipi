@@ -26,6 +26,7 @@ module.exports = {
       },
       minHeight: {
         "100vh": "100vh",
+        "90vh": "90vh",
       },
       fontSize: {
         "30px": "30px !important",
@@ -65,7 +66,7 @@ module.exports = {
         "4E4E4E": "#4E4E4E",
         "797777": "#797777",
         "505765": "#505765",
-        "6B7280": "#6B7280"
+        "6B7280": "#6B7280",
       },
       padding: {
         "lr-10px_tb-20px": "10px 20px",
@@ -85,9 +86,13 @@ module.exports = {
       },
       borderWidth: {
         "121px": "121px",
+        "1": "1px",
       },
       alignContent: {
         alignContent: "center",
+      },
+      left: {
+        "m-300px": "-300px",
       },
     },
   },

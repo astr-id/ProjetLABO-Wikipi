@@ -10,7 +10,6 @@ import FolderOpenOutlinedIcon from "@mui/icons-material/FolderOpenOutlined";
 import SettingsOutlinedIcon from "@mui/icons-material/SettingsOutlined";
 import LogoutOutlinedIcon from "@mui/icons-material/LogoutOutlined";
 import Box from "@mui/material/Box";
-import Button from "@mui/material/Button";
 import NightsStayIcon from "@mui/icons-material/NightsStay";
 import Modal from "@mui/material/Modal";
 import LightModeIcon from "@mui/icons-material/LightMode";
@@ -27,7 +26,7 @@ const style = {
   boxShadow: 24,
   p: 4,
 };
-function SideNavigation() {
+function SideNavigation({ scrollSideNavigation }) {
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
@@ -42,11 +41,15 @@ function SideNavigation() {
   };
 
   return (
-    <div className="w-300px min-h-100vh flex flex-col justify-between">
+    <div
+      className={`${
+        scrollSideNavigation ? "w-300px" : "hidden"
+      } min-h-90vh flex flex-col justify-between border`}
+    >
       <div
         className={`${
           theme === "light" ? "bg-white" : "bg-662626"
-        } flex justify-center border`}
+        } flex justify-center`}
       >
         <ul className="flex flex-col gap-2 items-center max-w-fit w-full">
           <Search />

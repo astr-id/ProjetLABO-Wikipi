@@ -3,6 +3,9 @@ import SearchIcon from "@mui/icons-material/Search";
 import { ThemeState } from "../../../../Context/UseContext";
 
 function SearchBar({ setData }) {
+  const {
+    state: { theme },
+  } = ThemeState();
   const [input, setInput] = useState("");
 
   const fetchData = (value) => {
@@ -25,9 +28,7 @@ function SearchBar({ setData }) {
     setInput(value);
     fetchData(value);
   };
-  const {
-    state: { theme },
-  } = ThemeState();
+  
   return (
     <div
       className={`${
