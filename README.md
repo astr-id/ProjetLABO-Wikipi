@@ -2,7 +2,7 @@
 
 ## 👋 Introduction
 
-WikIpi a pour objectif de regrouper toute la documentation relative à l’ensemble des projets Labo afin de faciliter l'accès et le partage des connaissances au sein de l'école.
+WikIpi a pour objectif de regrouper toute la documentation relative à l’ensemble des projets Labo afin de faciliter l'accès et le partage des connaissances au sein de l'IPI.
 
 ## 🛠️ Prérequis
 
