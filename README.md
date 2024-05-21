@@ -1,4 +1,3 @@
-Voici les modifications apportées à votre Markdown :
 
 # 🐼 WikIpi
 
