@@ -10,12 +10,12 @@ import NavigateBeforeIcon from "@mui/icons-material/NavigateBefore";
 
 function App() {
   const [scrollSideNavigation, setScrollSideNavigation] = useState(false);
-  const [connexion, setConnexion] = useState(true);
+  const [connexion, setConnexion] = useState(false);
   const navigate = useNavigate();
 
   useEffect(() => {
     if (connexion === false) {
-      navigate("/login");
+      navigate("/login"); 
     }
   }, []);
 

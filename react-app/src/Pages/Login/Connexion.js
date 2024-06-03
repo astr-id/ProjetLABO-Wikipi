@@ -62,7 +62,7 @@ function Connexion({ setConnexion }) {
                   variant="outlined"
                 >
                   <InputLabel htmlFor="outlined-adornment-password">
-                    Password
+                    Mot de passe
                   </InputLabel>
                   <OutlinedInput
                     id="outlined-adornment-password"
