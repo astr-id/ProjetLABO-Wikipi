@@ -1,0 +1,294 @@
+France:
+  Capitale: Paris, Population: 2148327, Lieu important: Palais de l'Élysée
+  Villes:
+    - Paris, Population: 2148327
+    - Lyon, Population: 515695
+    - Marseille, Population: 861635
+
+Allemagne:
+  Capitale: Berlin, Population: 3644826, Lieu important: Chancellerie
+  Villes:
+    - Berlin, Population: 3644826
+    - Hambourg, Population: 1841179
+    - Munich, Population: 1471508
+
+Espagne:
+  Capitale: Madrid, Population: 3266126, Lieu important: Palais de la Moncloa
+  Villes:
+    - Madrid, Population: 3266126
+    - Barcelone, Population: 1620343
+    - Valence, Population: 791413
+
+Royaume-Uni:
+  Capitale: Londres, Population: 8982000, Lieu important: 10 Downing Street
+  Villes:
+    - Londres, Population: 8982000
+    - Manchester, Population: 553230
+    - Birmingham, Population: 1141816
+
+Portugal:
+  Capitale: Lisbonne, Population: 504718, Lieu important: Palais de Belém
+  Villes:
+    - Lisbonne, Population: 504718
+    - Porto, Population: 214349
+    - Faro, Population: 60345
+
+Belgique:
+  Capitale: Bruxelles, Population: 1211035, Lieu important: Palais royal de Bruxelles
+  Villes:
+    - Bruxelles, Population: 1211035
+    - Anvers, Population: 523248
+    - Gand, Population: 262219
+
+Pays-Bas:
+  Capitale: Amsterdam, Population: 872757, Lieu important: Palais royal d'Amsterdam
+  Villes:
+    - Amsterdam, Population: 872757
+    - Rotterdam, Population: 651446
+    - Utrecht, Population: 357179
+
+Ukraine:
+  Capitale: Kyiv, Population: 2884000, Lieu important: Palais Mariinsky
+  Villes:
+    - Kyiv, Population: 2884000
+    - Kharkiv, Population: 1441357
+    - Lviv, Population: 724314
+
+Serbie:
+  Capitale: Belgrade, Population: 1233795, Lieu important: Novi Dvor
+  Villes:
+    - Belgrade, Population: 1233795
+    - Novi Sad, Population: 341625
+    - Niš, Population: 183164
+
+Slovaquie:
+  Capitale: Bratislava, Population: 432864, Lieu important: Palais Grassalkovich
+  Villes:
+    - Bratislava, Population: 432864
+    - Košice, Population: 239093
+    - Prešov, Population: 90295
+
+Slovénie:
+  Capitale: Ljubljana, Population: 284355, Lieu important: Palais présidentiel
+  Villes:
+    - Ljubljana, Population: 284355
+    - Maribor, Population: 111374
+    - Celje, Population: 48676
+
+Suède:
+  Capitale: Stockholm, Population: 975904, Lieu important: Palais royal de Stockholm
+  Villes:
+    - Stockholm, Population: 975904
+    - Gothenburg, Population: 583056
+    - Malmö, Population: 347949
+
+Suisse:
+  Capitale: Berne, Population: 142493, Lieu important: Palais fédéral de Suisse
+  Villes:
+    - Berne, Population: 142493
+    - Zurich, Population: 434008
+    - Genève, Population: 201818
+
+Norvège:
+  Capitale: Oslo, Population: 673469, Lieu important: Palais royal
+  Villes:
+    - Oslo, Population: 673469
+    - Bergen, Population: 257087
+    - Trondheim, Population: 193501
+
+Pologne:
+  Capitale: Varsovie, Population: 1764615, Lieu important: Palais présidentiel
+  Villes:
+    - Varsovie, Population: 1764615
+    - Cracovie, Population: 779115
+    - Łódź, Population: 682679
+
+République tchèque:
+  Capitale: Prague, Population: 1302880, Lieu important: Château de Prague
+  Villes:
+    - Prague, Population: 1302880
+    - Brno, Population: 381346
+    - Ostrava, Population: 290450
+
+Roumanie:
+  Capitale: Bucarest, Population: 1883425, Lieu important: Palais Cotroceni
+  Villes:
+    - Bucarest, Population: 1883425
+    - Cluj-Napoca, Population: 316748
+    - Timișoara, Population: 319279
+
+Kosovo:
+  Capitale: Pristina, Population: 204725, Lieu important: Présidence du Kosovo
+  Villes:
+    - Pristina, Population: 204725
+    - Prizren, Population: 185060
+    - Peja, Population: 95000
+
+Lettonie:
+  Capitale: Riga, Population: 632614, Lieu important: Château de Riga
+  Villes:
+    - Riga, Population: 632614
+    - Daugavpils, Population: 81895
+    - Liepāja, Population: 68825
+
+Liechtenstein:
+  Capitale: Vaduz, Population: 5289, Lieu important: Château de Vaduz
+  Villes:
+    - Vaduz, Population: 5289
+    - Schaan, Population: 5897
+    - Triesen, Population: 4864
+
+Lituanie:
+  Capitale: Vilnius, Population: 580020, Lieu important: Palais présidentiel
+  Villes:
+    - Vilnius, Population: 580020
+    - Kaunas, Population: 293325
+    - Klaipėda, Population: 147892
+
+Luxembourg:
+  Capitale: Ville de Luxembourg, Population: 115227, Lieu important: Palais grand-ducal
+  Villes:
+    - Ville de Luxembourg, Population: 115227
+    - Esch-sur-Alzette, Population: 35600
+    - Differdange, Population: 26320
+
+Macédoine du Nord:
+  Capitale: Skopje, Population: 505926, Lieu important: Villa Vodno
+  Villes:
+    - Skopje, Population: 505926
+    - Bitola, Population: 74000
+    - Kumanovo, Population: 73000
+
+Malte:
+  Capitale: La Valette, Population: 5183, Lieu important: Auberge de Castille
+  Villes:
+    - La Valette, Population: 5183
+    - Birkirkara, Population: 25000
+    - Mosta, Population: 20000
+
+Moldavie:
+  Capitale: Chișinău, Population: 635994, Lieu important: Palais présidentiel
+  Villes:
+    - Chișinău, Population: 635994
+    - Tiraspol, Population: 133807
+    - Bălți, Population: 102457
+
+Arménie:
+  Capitale: Erevan, Population: 1077029, Lieu important: Palais présidentiel
+  Villes:
+    - Erevan, Population: 1077029
+    - Gyumri, Population: 121976
+    - Vanadzor, Population: 76477
+
+Autriche:
+  Capitale: Vienne, Population: 1897491, Lieu important: Palais de la Hofburg
+  Villes:
+    - Vienne, Population: 1897491
+    - Graz, Population: 291890
+    - Linz, Population: 204846
+
+Azerbaïdjan:
+  Capitale: Bakou, Population: 2122300, Lieu important: Palais présidentiel
+  Villes:
+    - Bakou, Population: 2122300
+    - Gandja, Population: 332600
+    - Sumqayit, Population: 294800
+
+Biélorussie:
+  Capitale: Minsk, Population: 2020600, Lieu important: Palais de l'Indépendance
+  Villes:
+    - Minsk, Population: 2020600
+    - Gomel, Population: 526872
+    - Mogilev, Population: 370920
+
+Bosnie-Herzégovine:
+  Capitale: Sarajevo, Population: 275524, Lieu important: Bâtiment de la présidence
+  Villes:
+    - Sarajevo, Population: 275524
+    - Banja Luka, Population: 150997
+    - Tuzla, Population: 110979
+
+Bulgarie:
+  Capitale: Sofia, Population: 1324276, Lieu important: Largo
+  Villes:
+    - Sofia, Population: 1324276
+    - Plovdiv, Population: 346893
+    - Varna, Population: 334870
+
+Chypre:
+  Capitale: Nicosie, Population: 309251, Lieu important: Palais présidentiel
+  Villes:
+    - Nicosie, Population: 309251
+    - Limassol, Population: 241000
+    - Larnaca, Population: 51656
+
+Croatie:
+  Capitale: Zagreb, Population: 792875, Lieu important: Place St. Mark's
+  Villes:
+    - Zagreb, Population: 792875
+    - Split, Population: 178102
+    - Rijeka, Population: 128384
+
+Danemark:
+  Capitale: Copenhague, Population: 602481, Lieu important: Palais Amalienborg
+  Villes:
+    - Copenhague, Population: 602481
+    - Aarhus, Population: 273077
+    - Odense, Population: 204716
+
+Estonie:
+  Capitale: Tallinn, Population: 428993, Lieu important: Palais présidentiel
+  Villes:
+    - Tallinn, Population: 428993
+    - Tartu, Population: 95686
+    - Narva, Population: 55162
+
+Finlande:
+  Capitale: Helsinki, Population: 654696, Lieu important: Palais présidentiel
+  Villes:
+    - Helsinki, Population: 654696
+    - Espoo, Population: 291439
+    - Tampere, Population: 239125
+
+Géorgie:
+  Capitale: Tbilissi, Population: 1085800, Lieu important: Palais présidentiel
+  Villes:
+    - Tbilissi, Population: 1085800
+    - Koutaïssi, Population: 146377
+    - Batoumi, Population: 154416
+
+Grèce:
+  Capitale: Athènes, Population: 664046, Lieu important: Palais présidentiel
+  Villes:
+    - Athènes, Population: 664046
+    - Thessalonique, Population: 325182
+    - Patras, Population: 213984
+
+Hongrie:
+  Capitale: Budapest, Population: 1752286, Lieu important: Palais de Budavár
+  Villes:
+    - Budapest, Population: 1752286
+    - Debrecen, Population: 203914
+    - Szeged, Population: 158570
+
+Irlande:
+  Capitale: Dublin, Population: 553165, Lieu important: Áras an Uachtaráin
+  Villes:
+    - Dublin, Population: 553165
+    - Cork, Population: 210226
+    - Galway, Population: 79934
+
+Islande:
+  Capitale: Reykjavik, Population: 130166, Lieu important: Bessastaðir
+  Villes:
+    - Reykjavik, Population: 130166
+    - Kópavogur, Population: 36879
+    - Hafnarfjörður, Population: 29276
+
+Albanie:
+  Capitale: Tirana, Population: 418495, Lieu important: Palais présidentiel
+  Villes:
+    - Tirana, Population: 418495
+    - Durrës, Population: 175110
+    - Vlorë, Population: 129422
+
