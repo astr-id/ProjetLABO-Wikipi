@@ -31,7 +31,7 @@ function Connexion({ setConnexion }) {
     <div className="min-h-90vh w-full flex justify-center items-center">
       <Container>
         <div className="flex justify-around items-start gap-10">
-          <div className="w-1/2">
+          <div className="w-1/2 loginFrom">
             <img className="w-full" src={Logo_ipi} alt="Logo_ipi" />
             <h1 className="mt-10 mb-10 text-2xl font-bold">Connexion</h1>
             <div className="w-full">
@@ -94,7 +94,7 @@ function Connexion({ setConnexion }) {
               </Box>
             </div>
           </div>
-          <div>
+          <div className="loginImage">
             <img src={connexionPanda} alt="Error" />
           </div>
         </div>

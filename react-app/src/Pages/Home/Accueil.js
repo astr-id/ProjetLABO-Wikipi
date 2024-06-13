@@ -2,9 +2,7 @@ import React from "react";
 import { ThemeState } from "../../Context/UseContext";
 import { Avatar, Container, Stack } from "@mui/material";
 import Card from "@mui/material/Card";
-import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
-import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 
 function Accueil() {
@@ -48,13 +46,13 @@ function Accueil() {
     <Container
       className={`${theme === "light" ? "bg-white" : "bg-252525"} mt-5 w-full`}
     >
-      <div className="p-2 rounded-lg border-1 border-black">
-        <div className="w-full pt-14 pb-14 bg-662626 rounded-lg flex justify-around items-center">
-          <div className="text-white">
+      <div className="p-5 rounded-lg border-1 border-black">
+        <div className="w-full pt-14 pb-14 bg-662626 rounded-lg flex justify-around items-center flex-wrap">
+          <div className="text-white accueil-premier-section">
             <p>La base documentaire pour le Projet Labo</p>
             <h1 className="text-3xl">WikIpi</h1>
           </div>
-          <div className="flex justify-around items-center gap-5">
+          <div className="flex justify-around items-center gap-5 flex-wrap">
             <button className="pt-2 pb-2 pl-5 pr-5 rounded-lg bg-white text-red-600">
               Creer un nouveau projet
             </button>
@@ -65,7 +63,7 @@ function Accueil() {
         </div>
         <div>
           <h1 className="mt-5 mb-5 ml-1 font-bold text-xl">Actualites</h1>
-          <div className="mb-5 flex justify-around items-center gap-5 flex-wrap">
+          <div className="w-full flex justify-around items-center gap-5 flex-wrap accueil-actualites">
             {items.map((i, index) => (
               <Card
                 style={{

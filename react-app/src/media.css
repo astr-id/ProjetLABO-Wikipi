@@ -1,3 +1,23 @@
+@media only screen and (max-width: 634px) {
+}
+@media (min-width: 634px) and (max-width: 954px) {
+}
+
+@media (min-width: 870px) and (max-width: 1230px) {
+  .accueil-actualites {
+    margin: 0 auto;
+    justify-content: flex-start !important;
+    max-width: calc(740px - 1.25rem) !important;
+    width: 100% !important;
+  }
+}
+@media only screen and (max-width: 900px) {
+}
+@media only screen and (max-width: 835px) {
+  .accueil-premier-section {
+    margin-bottom: 20px;
+  }
+}
 @media only screen and (max-width: 750px) {
   #Navigation {
     display: none !important;
@@ -5,4 +25,14 @@
   #BurgerMenu {
     display: block;
   }
+  .loginImage {
+    display: none;
+  }
+  .loginFrom {
+    width: 80% !important;
+  }
+}
+@media only screen and (max-width: 650px) {
+}
+@media only screen and (max-width: 540px) {
 }
